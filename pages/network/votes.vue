@@ -216,7 +216,7 @@ export default {
         option = {
           ...option,
           formatter: (param) => {
-            console.log(param)
+            
             return `
             <div class="tooltip-header">
               ${param[0].axisValue}
